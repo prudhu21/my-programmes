@@ -1,0 +1,6 @@
+#04
+numbers = input()
+num_list = numbers.split(",")
+num_tuple = tuple(num_list)
+print(num_list) 
+print(num_tuple)

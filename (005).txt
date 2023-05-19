@@ -1,0 +1,14 @@
+#05
+class StringManipulator:
+    def __init__(self):
+        self.my_string = ""
+    def getString(self):
+        self.my_string = input("Enter a string: ")
+    def printString(self):
+        print(self.my_string.upper())
+def testStringManipulator():
+    my_string_manipulator = StringManipulator()
+    my_string_manipulator.getString()
+    my_string_manipulator.printString()
+
+testStringManipulator()
